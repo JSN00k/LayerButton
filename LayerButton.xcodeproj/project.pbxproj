@@ -13,13 +13,13 @@
 		1A03B9B717DB6C6C003C97F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A03B9B517DB6C6C003C97F2 /* InfoPlist.strings */; };
 		1A03B9B917DB6C6C003C97F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03B9B817DB6C6C003C97F2 /* main.m */; };
 		1A03B9BD17DB6C6C003C97F2 /* JTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03B9BC17DB6C6C003C97F2 /* JTAAppDelegate.m */; };
-		1A03B9C017DB6C6C003C97F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A03B9BE17DB6C6C003C97F2 /* Main.storyboard */; };
 		1A03B9C317DB6C6C003C97F2 /* JTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03B9C217DB6C6C003C97F2 /* JTAViewController.m */; };
 		1A03B9C517DB6C6C003C97F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A03B9C417DB6C6C003C97F2 /* Images.xcassets */; };
 		1A03B9CD17DB6C6C003C97F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03B9AC17DB6C6C003C97F2 /* Foundation.framework */; };
 		1A03B9CE17DB6C6C003C97F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03B9B017DB6C6C003C97F2 /* UIKit.framework */; };
 		1A03B9E217DB6CB5003C97F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03B9E117DB6CB5003C97F2 /* QuartzCore.framework */; };
 		1A10AA2917DB96A300947495 /* JTAMovableLayersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10AA2817DB96A300947495 /* JTAMovableLayersView.m */; };
+		2FA05E5617DDB62B008E0C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA05E5517DDB62B008E0C59 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		1A03B9BA17DB6C6C003C97F2 /* LayerButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayerButton-Prefix.pch"; sourceTree = "<group>"; };
 		1A03B9BB17DB6C6C003C97F2 /* JTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAAppDelegate.h; sourceTree = "<group>"; };
 		1A03B9BC17DB6C6C003C97F2 /* JTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAAppDelegate.m; sourceTree = "<group>"; };
-		1A03B9BF17DB6C6C003C97F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A03B9C117DB6C6C003C97F2 /* JTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAViewController.h; sourceTree = "<group>"; };
 		1A03B9C217DB6C6C003C97F2 /* JTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAViewController.m; sourceTree = "<group>"; };
 		1A03B9C417DB6C6C003C97F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		1A03B9E117DB6CB5003C97F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1A10AA2717DB96A300947495 /* JTAMovableLayersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAMovableLayersView.h; sourceTree = "<group>"; };
 		1A10AA2817DB96A300947495 /* JTAMovableLayersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAMovableLayersView.m; sourceTree = "<group>"; };
+		2FA05E5517DDB62B008E0C59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +111,12 @@
 			children = (
 				1A03B9BB17DB6C6C003C97F2 /* JTAAppDelegate.h */,
 				1A03B9BC17DB6C6C003C97F2 /* JTAAppDelegate.m */,
-				1A03B9BE17DB6C6C003C97F2 /* Main.storyboard */,
 				1A03B9C117DB6C6C003C97F2 /* JTAViewController.h */,
 				1A03B9C217DB6C6C003C97F2 /* JTAViewController.m */,
 				1A10AA2717DB96A300947495 /* JTAMovableLayersView.h */,
 				1A10AA2817DB96A300947495 /* JTAMovableLayersView.m */,
 				1A03B9C417DB6C6C003C97F2 /* Images.xcassets */,
+				2FA05E5517DDB62B008E0C59 /* Main.storyboard */,
 				1A03B9B317DB6C6C003C97F2 /* Supporting Files */,
 			);
 			path = LayerButton;
@@ -212,7 +212,7 @@
 			files = (
 				1A03B9C517DB6C6C003C97F2 /* Images.xcassets in Resources */,
 				1A03B9B717DB6C6C003C97F2 /* InfoPlist.strings in Resources */,
-				1A03B9C017DB6C6C003C97F2 /* Main.storyboard in Resources */,
+				2FA05E5617DDB62B008E0C59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +261,6 @@
 				1A03B9B617DB6C6C003C97F2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1A03B9BE17DB6C6C003C97F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A03B9BF17DB6C6C003C97F2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
